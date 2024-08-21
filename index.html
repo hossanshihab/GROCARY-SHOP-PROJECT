@@ -65,20 +65,21 @@
           </ul>
         </div>
         <div class="navbar-end">
-            <div class="flex items-center gap-5">
-              <button class="flex items-center text-accent gap-2">
-                <span>$20.00</span>
-                <i class="fa-solid fa-cart-shopping"></i>
-              </button>
-              <button>
-                <i class="fa-solid fa-user"></i>
-              </button>
-            </div>
+          <div class="flex items-center gap-5">
+            <button class="flex items-center text-accent gap-2">
+              <span>$20.00</span>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button>
+              <i class="fa-solid fa-user"></i>
+            </button>
+          </div>
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <i class="fa-solid fa-bars"></i>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+            <ul tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
               <li><a>Home</a></li>
               <li><a>Everything</a></li>
               <li><a>Grocaries</a></li>
@@ -89,32 +90,77 @@
         </div>
       </div>
     </nav>
-
     <!-- banner-section-starts-here -->
-     <section class="">
-
-        <div class="lg:w-9/12 mx-auto py-36 flex flex-col sm:flex-row items-center gap-10">
-          <div class="flex-1">
-            <img src="./images/bannerbg.png" alt="">
-          </div>
-          <div class="flex-1 px-4 py-2">
-            <h1 class="text-xl font-semibold my-5">Best Quality Products</h1>
-            <h4 class="text-6xl font-bold my-5">Join The Organanic Movement</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ipsum!</p>
-            <div class="flex items-center mt-4">
-              <button class="btn btn-error text-white px-6 py-4">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span>shop now</span>
-              </button>
-            </div>
+    <section">
+      <div class="lg:w-9/12 mx-auto py-36 flex flex-col sm:flex-row items-center gap-10">
+        <div class="flex-1">
+          <img src="./images/bannerbg.png" alt="">
+        </div>
+        <div class="flex-1 px-4 py-2">
+          <h1 class="text-xl font-semibold my-5">Best Quality Products</h1>
+          <h4 class="text-6xl font-bold my-5">Join The Organanic Movement</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ipsum!</p>
+          <div class="flex items-center mt-4">
+            <button class="btn btn-error text-white px-6 py-4">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>shop now</span>
+            </button>
           </div>
         </div>
-     </section>
+      </div>
+      </section>
   </header>
 
 
-
-  <main></main>
+  <main>
+    <!-- shipping-section -->
+    <section class="bg-black border-2  grid lg:grid-cols-4 grid-cols-1 gap-2 px-2 py-2" >
+      <!-- cards -->
+      <div class="h-42 w-full bg-gray-800">
+        <div class="text-white flex justify-center items-center flex-col gap-4 px-4 py-6">
+          <div><span class="text-5xl"><i class="fa-solid fa-car"></i></span></div>
+          <h1>Free Shipping</h1>
+          <p>Above $5 only</p>
+        </div>
+      </div>
+      <div class="h-48 w-full bg-slate-800">
+        <div class="text-white flex justify-center items-center flex-col gap-4 px-4 py-6">
+          <div><span class="text-5xl"><i class="fa-solid fa-car"></i></span></div>
+          <h1>Free Shipping</h1>
+          <p>Above $5 only</p>
+        </div>
+      </div>
+      <div class="h-48 w-full bg-slate-800">
+        <div class="text-white flex justify-center items-center flex-col gap-4 px-4 py-6">
+          <div><span class="text-5xl"><i class="fa-solid fa-car"></i></span></div>
+          <h1>Free Shipping</h1>
+          <p>Above $5 only</p>
+        </div>
+      </div>
+      <div class="h-48 w-full bg-slate-800">
+        <div class="text-white flex justify-center items-center flex-col gap-4 px-4 py-6">
+          <div><span class="text-5xl"><i class="fa-solid fa-car"></i></span></div>
+          <h1>Free Shipping</h1>
+          <p>Above $5 only</p>
+        </div>
+      </div>
+    </section>
+    <!-- about us -->
+     <section class="mt-2">
+      <div class="flex flex-col-reverse sm:flex-row">
+        <div class="leading-8 space-y-6 p-3 flex-1">
+          <h1 class="text-4xl font-bold">about us</h1>
+          <h2 class="text-5xl font-semibold">tell website visitors who you are and why they should <br>choose your business</h2>
+          <p class="text-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Molestias earum, tenetur quam repellendus architecto sequi <br>consequatur deserunt illum? Repellat, consequatur quae. Ut, quas <br>distinctio expedita perspiciatis molestias voluptas nam optio unde sunt dolor, quo dicta reiciendis! <br>Alias nostrum tempore blanditiis earum eum autem sapiente voluptatum. <br>Optio sunt perferendis maiores natus!
+          </p>
+          <button class="btn btn-error text-white">Find Out More</button>
+        </div>
+        <div class="w-[50%] flex-1">
+          <img class="w-full h-full" src="./images/about.jpg" alt="">
+        </div>
+      </div>
+     </section>
+  </main>
 
   <footer></footer>
 
