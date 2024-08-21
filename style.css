@@ -1,0 +1,8 @@
+.leaf{
+  background-image: url(./images/leaf01.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  opacity: 30%;
+  width: 100%;
+  height: 100%;
+}
